@@ -52,7 +52,7 @@ shaazOS recreates a simple desktop environment directly in your browser, with in
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/shaazumer066-bot/shaazOS.git
 ```
 
 Open `index.html` in your browser.
