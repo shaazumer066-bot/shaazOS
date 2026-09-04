@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>shaazOS</title>
+
+</head>
+
+<body>
+
+    <div id="welcomescreen" class="window">
+
+        <div id="welcomescreenheader" class="window-header">
+
+            <p>shaazOS</p>
+
+            <div class="window-controls">
+
+                <button class="minimize-btn">−</button>
+                <button class="maximize-btn">□</button>
+                <button class="close-btn">×</button>
+
+            </div>
+
+        </div>
+
+
+        <img
+            src="images/shaazOSlogo.png"
+            alt="shaazOS Logo"
+            width="75"
+            height="75"
+        >
+
+        <h1>shaazOS</h1>
+
+        <p>
+            A simple web-based operating system built
+            <br>
+            with HTML, CSS, and JavaScript.
+            <br>
+            Explore apps, customize your desktop, and enjoy a lightweight OS experience right in your browser.
+        </p>
+
+    </div>
+
+    <div id="keepnotes" class="window">
+
+        <div id="keepnotesheader" class="window-header">
+
+            <p>Keep Notes</p>
+
+            <div class="window-controls">
+
+                <button class="minimize-btn">−</button>
+                <button class="maximize-btn">□</button>
+                <button class="close-btn">×</button>
+
+            </div>
+
+        </div>
+
+
+        <textarea
+            id="keepnotesinput"
+            placeholder="Type your note here..."
+        ></textarea>
+
+    </div>
+
+    <div id="calculator" class="window">
+
+        <div id="calculatorheader" class="window-header">
+
+            <p>Calculator</p>
+
+            <div class="window-controls">
+
+                <button class="minimize-btn">−</button>
+                <button class="maximize-btn">□</button>
+                <button class="close-btn">×</button>
+
+            </div>
+
+        </div>
+
+
+        <div id="calculator-display">
+            0
+        </div>
+
+
+        <div id="calculator-buttons">
+
+            <button class="calculator-button clear">AC</button>
+            <button class="calculator-button operator">%</button>
+            <button class="calculator-button operator">÷</button>
+            <button class="calculator-button delete">⌫</button>
+
+            <button class="calculator-button">7</button>
+            <button class="calculator-button">8</button>
+            <button class="calculator-button">9</button>
+            <button class="calculator-button operator">×</button>
+
+            <button class="calculator-button">4</button>
+            <button class="calculator-button">5</button>
+            <button class="calculator-button">6</button>
+            <button class="calculator-button operator">−</button>
+
+            <button class="calculator-button">1</button>
+            <button class="calculator-button">2</button>
+            <button class="calculator-button">3</button>
+            <button class="calculator-button operator">+</button>
+
+            <button class="calculator-button zero">0</button>
+            <button class="calculator-button">.</button>
+            <button class="calculator-button equals">=</button>
+
+        </div>
+
+    </div>
+
+    <div id="contacts" class="window">
+
+        <div id="contactsheader" class="window-header">
+
+            <p>Contact Me</p>
+
+            <div class="window-controls">
+
+                <button class="minimize-btn">−</button>
+                <button class="maximize-btn">□</button>
+                <button class="close-btn">×</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="contacts-content">
+
+            <a href="https://www.instagram.com/shaaz_umer"
+               target="_blank"
+               class="contact-item">
+
+                <img
+                    src="images/instagram.png"
+                    alt="Instagram"
+                >
+
+                <span>Instagram</span>
+
+            </a>
+
+
+            <a href="mailto:shaazumer066@gmail.com"
+               class="contact-item">
+
+                <img
+                    src="images/gmail.png"
+                    alt="Gmail"
+                >
+
+                <span>Gmail</span>
+
+            </a>
+
+
+            <a href="https://github.com/shaazumer066-bot"
+               target="_blank"
+               class="contact-item">
+
+                <img
+                    src="images/github.png"
+                    alt="GitHub"
+                >
+
+                <span>GitHub</span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div id="gallery" class="window">
+
+        <div id="galleryheader" class="window-header">
+
+            <p>Gallery</p>
+
+            <div class="window-controls">
+
+                <button class="minimize-btn">−</button>
+                <button class="maximize-btn">□</button>
+                <button class="close-btn">×</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <img src="images/gallery1.jpg" alt="Gallery image 1">
+            <img src="images/gallery2.jpg" alt="Gallery image 2">
+            <img src="images/gallery3.jpg" alt="Gallery image 3">
+
+            <img src="images/gallery4.jpg" alt="Gallery image 4">
+            <img src="images/gallery5.jpg" alt="Gallery image 5">
+            <img src="images/gallery6.jpg" alt="Gallery image 6">
+
+            <img src="images/gallery7.jpg" alt="Gallery image 7">
+            <img src="images/gallery8.jpg" alt="Gallery image 8">
+            <img src="images/gallery9.jpg" alt="Gallery image 9">
+
+        </div>
+
+    </div>
+
+    <div id="focustimer" class="window">
+
+        <div id="focustimerheader" class="window-header">
+
+            <p>Focus Timer</p>
+
+            <div class="window-controls">
+
+                <button class="minimize-btn">−</button>
+                <button class="maximize-btn">□</button>
+                <button class="close-btn">×</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="timer-content">
+
+            <div id="timer-display">
+                05:00
+            </div>
+
+
+            <div class="timer-buttons">
+
+                <button data-minutes="5">
+                    5 min
+                </button>
+
+                <button data-minutes="10">
+                    10 min
+                </button>
+
+                <button data-minutes="25">
+                    25 min
+                </button>
+
+            </div>
+
+
+            <div class="timer-controls">
+
+                <button id="timer-start">
+                    Start
+                </button>
+
+                <button id="timer-reset">
+                    Reset
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<div id="fileexplorer" class="window">
+
+    <div id="fileexplorerheader" class="window-header">
+
+        <p>File Explorer</p>
+
+        <div class="window-controls">
+
+            <button class="minimize-btn">−</button>
+            <button class="maximize-btn">□</button>
+            <button class="close-btn">X</button>
+
+        </div>
+
+    </div>
+
+
+    <div class="file-toolbar">
+
+        <button id="file-back">←</button>
+        <button id="file-home">🏠</button>
+        <button id="file-refresh">⟳</button>
+
+        <div id="file-location">
+            Home
+        </div>
+
+    </div>
+
+
+    <div id="file-content">
+
+    </div>
+
+</div>
+
+<div id="settings" class="window">
+
+    <div id="settingsheader" class="window-header">
+
+        <p>Settings</p>
+
+        <div class="window-controls">
+
+            <button class="minimize-btn">−</button>
+            <button class="maximize-btn">□</button>
+            <button class="close-btn">×</button>
+
+        </div>
+
+    </div>
+
+
+    <div class="settings-content">
+
+        <div class="settings-section">
+
+            <h2>Wallpaper</h2>
+
+            <div class="wallpaper-options">
+
+                <button
+                    class="wallpaper-option"
+                    data-wallpaper="images/walpaper-1.jpg"
+                >
+                    Wallpaper 1
+                </button>
+
+
+                <button
+                    class="wallpaper-option"
+                    data-wallpaper="images/walpaper-2.jpg"
+                >
+                    Wallpaper 2
+                </button>
+
+
+                <button
+                    class="wallpaper-option"
+                    data-wallpaper="images/walpaper-3.jpg"
+                >
+                    Wallpaper 3
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="settings-section">
+
+            <h2>Accent Color</h2>
+
+            <div class="accent-options">
+
+                <button
+                    class="accent-option"
+                    data-color="#87CEEB"
+                >
+                    Blue
+                </button>
+
+
+                <button
+                    class="accent-option"
+                    data-color="#ff4d4d"
+                >
+                    Red
+                </button>
+
+
+                <button
+                    class="accent-option"
+                    data-color="#b57cff"
+                >
+                    Purple
+                </button>
+
+
+                <button
+                    class="accent-option"
+                    data-color="#65e6a5"
+                >
+                    Green
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="settings-section">
+
+            <h2>Reset</h2>
+
+            <button id="reset-settings">
+                Reset Appearance
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <div class="top-bar">
+
+        <p id="openshaazos">
+            shaazOS
+        </p>
+
+        <p id="time"></p>
+
+    </div>
+
+    <div id="openkeepnotes" class="app-icon">
+
+        <img
+            src="images/note.png"
+            title="Keep Notes"
+            alt="Keep Notes"
+            width="50"
+            height="50"
+        >
+
+    </div>
+
+
+    <div id="opencalculator" class="app-icon">
+
+        <img
+            src="images/calculator.png"
+            title="Calculator"
+            alt="Calculator"
+            width="50"
+            height="50"
+        >
+
+    </div>
+
+
+    <div id="opencontacts" class="app-icon">
+
+        <img
+            src="images/contacts.png"
+            title="Contacts"
+            alt="Contacts"
+            width="50"
+            height="50"
+        >
+
+    </div>
+
+
+    <div id="opengallery" class="app-icon">
+
+        <img
+            src="images/gallery.png"
+            title="Gallery"
+            alt="Gallery"
+            width="50"
+            height="50"
+        >
+
+    </div>
+
+
+    <div id="openfocustimer" class="app-icon">
+
+        <img
+            src="images/timer.png"
+            title="Focus Timer"
+            alt="Focus Timer"
+            width="50"
+            height="50"
+        >
+
+    </div>
+
+<div
+    id="openfileexplorer"
+    class="app-icon"
+    data-app="File Explorer"
+>
+    <img
+        src="images/file-explorer.png"
+        width="50px"
+        height="50px"
+        title="File Explorer"
+    >
+</div>S
+
+
+<div
+    id="opensettings"
+    class="app-icon"
+    data-app="Settings"
+>
+    <img
+        src="images/settings.png"
+        width="50px"
+        height="50px"
+        title="Settings"
+    >
+</div>
+
+    <div id="app-search">
+
+        <input
+            type="text"
+            id="app-search-input"
+            placeholder="Search apps..."
+            autocomplete="off"
+        >
+
+        <div id="app-search-results"></div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
